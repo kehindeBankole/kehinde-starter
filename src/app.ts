@@ -8,6 +8,7 @@ interface Results {
 let currentPage: number = 1;
 let isFirstPage: boolean = true;
 let prevBtn = document.getElementById("prev-btn") as HTMLButtonElement;
+let showPageInfo = document.getElementById("current-shown-page")!;
 const tbody = document.getElementsByClassName("table-body")[0];
 
 async function makeCall<T = any>(page: number): Promise<T> {
@@ -29,7 +30,7 @@ async function getData(page: number) {
     }[];
     info: { page: number | string };
   }>(page);
-
+  showPageInfo.textContent = `Showing Page ${currentPage}`;
   let data = results.results[0][`${page}`];
   if (results.info.page === "1") {
     prevBtn.disabled = true;
