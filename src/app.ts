@@ -6,7 +6,6 @@ interface Results {
 }
 
 let currentPage: number = 1;
-let isFirstPage: boolean = true;
 let prevBtn = document.getElementById("prev-btn") as HTMLButtonElement;
 let showPageInfo = document.getElementById("current-shown-page")!;
 const tbody = document.getElementsByClassName("table-body")[0];
