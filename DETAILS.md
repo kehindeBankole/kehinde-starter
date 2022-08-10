@@ -19,7 +19,7 @@ i have app.ts index.html and style.css in the src folder
 
 the index.css files contains code which is used to style the web application
 
-the index.html file contains the markup of the web application , although not all the mark up included because some of the data needs to be fetched dynamically. Every element has also been assigned an id attribute (if needed) in order for them to be accessible using typescript
+the index.html file contains the markup of the web application , although not all the mark up included because some of the data needs to be fetched dynamically. Every element has also been assigned an id attribute (if needed) in order for them to be accessible using typescript or javascript DOM
 
 the app.ts file , written in typescript contains logic and implementation details that drive the web application
 i have the type of response expected defined at the top of the file , this will allow TS to help point out errors and help with auto complete
