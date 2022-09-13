@@ -1,4 +1,7 @@
 # Frontend Assessment
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a88ecc47425a4a45931dbf52b9315912)](https://www.codacy.com/gh/kehindeBankole/kehinde-starter/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kehindeBankole/kehinde-starter&amp;utm_campaign=Badge_Grade)
+
+---
 
 Build and deploy a very simple frontend app for paginated data, that does the following
 
